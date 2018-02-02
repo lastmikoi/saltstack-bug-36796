@@ -1,0 +1,5 @@
+salt-ssh:
+  roster_file: ./conf/roster
+  config_dir: ./conf
+  ssh_log_file: ./logs/salt-ssh-log.log
+  ssh_priv: agent-forwarding

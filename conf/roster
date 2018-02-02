@@ -1,0 +1,4 @@
+salt-master:
+  host: 172.28.123.100
+  user: vagrant
+  sudo: True

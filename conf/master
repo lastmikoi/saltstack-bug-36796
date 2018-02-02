@@ -1,0 +1,14 @@
+pki_dir: "/home/mfalck/Work/salt_replicate/.pki"
+
+cachedir: "/home/mfalck/Work/salt_replicate/.cache"
+
+fileserver_backend:
+  - roots
+
+file_roots:
+  base:
+    - /home/mfalck/Work/salt_replicate/salt/
+
+pillar_roots:
+  base:
+    - /home/mfalck/Work/salt_replicate/pillar/
